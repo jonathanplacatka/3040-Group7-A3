@@ -14,7 +14,7 @@ The API provides endpoints to retrieve information related to cryptocurrency, in
 
 ### 2. Get Cryptocurrency Value
 - **Endpoint**: `/crypto/value`
-- **Parameters++:
+- **Parameters**:
   - `currency_name` (string): The name of the cryptocurrency to retrieve the value for.
   - `target_currency` (string): The currency in which the user wants to view the value (e.g., USD, CAD).
 
