@@ -19,6 +19,20 @@ The API provides endpoints to retrieve information related to cryptocurrency, in
   - `target_currency` (string): The currency in which the user wants to view the value (e.g., USD, CAD).
 
 ## Resources
+## Resources
+balance:
+```
+{
+  balance: 0.07
+  currency_name: BTC
+}
+```
+value:
+```
+{
+  value: 8240.88
+}
+```
 
 
 ## Sample Request For Get Wallet Balence
