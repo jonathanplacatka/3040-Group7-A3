@@ -11,3 +11,6 @@ parameters:
 - password: password for the specified user
 
 ## Resources
+
+
+## Sample Request
