@@ -21,4 +21,40 @@ The API provides endpoints to retrieve information related to cryptocurrency, in
 ## Resources
 
 
-## Sample Request
+## Sample Request For Get Wallet Balence
+```json
+
+{
+    "userid": "exampleid",
+    "password": "exampleuser_password",
+    "cryptocurrency": "Bitcoin"
+}
+```
+
+## Sample Response For Get Wallet Balance
+```json
+
+{
+  "balance": 5.23,
+  "currency": "BTC"
+}
+
+```
+
+## Sample Request For Get Cryptocurrency Value
+
+```json
+
+{
+  "cryptocurrency": "Bitcoin",
+  "outputcurrency": "USD"
+}
+```
+
+## Sample Response For Get Cryptocurrency value
+
+```json
+{
+  "value": "62971$"
+}
+```
