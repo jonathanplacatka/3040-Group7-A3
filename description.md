@@ -35,7 +35,11 @@ value:
 ```
 
 
-## Sample Request For Get Wallet Balence
+## Sample Requests/Responses
+
+### Get Wallet Balance Request
+
+```GET /wallet/balance```
 ```json
 
 {
@@ -45,7 +49,8 @@ value:
 }
 ```
 
-## Sample Response For Get Wallet Balance
+### Get Wallet Balance Response
+
 ```json
 
 {
@@ -55,7 +60,9 @@ value:
 
 ```
 
-## Sample Request For Get Cryptocurrency Value
+### Get Cryptocurrency Value Request
+
+```GET /crypto/value```
 
 ```json
 
@@ -65,7 +72,7 @@ value:
 }
 ```
 
-## Sample Response For Get Cryptocurrency value
+### Get Cryptocurrency Value Response
 
 ```json
 {
